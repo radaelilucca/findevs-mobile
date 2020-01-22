@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "mobile",
-    "slug": "mobile",
+    "name": "FinDevs",
+    "slug": "FinDevs",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [
@@ -9,6 +9,15 @@
       "android",
       "web"
     ],
+    "android": {
+      "package": "com.radaelidev.findevs",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAc2en8-cQ2f_soM3I22ydTKs-LY1uCE7U"
+        }
+      }
+      
+    },
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +34,8 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "Findev's mobile",
+    "githubUrl": "https://github.com/radaelilucca/findev-mobile"
   }
 }
