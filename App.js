@@ -9,7 +9,7 @@ YellowBox.ignoreWarnings([
 export default function App() {
   return (
     <>
-    <StatusBar barStyle='light-content' backgroundColor='#553AA2'/>
+    <StatusBar barStyle='light-content' backgroundColor='#8E4DFF'/>
     <Routes />
     </>
    );
