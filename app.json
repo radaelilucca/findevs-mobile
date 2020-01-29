@@ -11,6 +11,10 @@
     ],
     "android": {
       "package": "com.radaelidev.findevs",
+      "adaptiveIcon": {
+        "backgroundColor": "#6B61BD",
+        "foregroundImage": "./assets/icon.png"
+      },
       "config": {
         "googleMaps": {
           "apiKey": "AIzaSyAc2en8-cQ2f_soM3I22ydTKs-LY1uCE7U"
@@ -24,7 +28,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#6B61BD"
     },
     "updates": {
       "fallbackToCacheTimeout": 0

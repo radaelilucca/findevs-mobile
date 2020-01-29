@@ -32,9 +32,6 @@ function Main({navigation}){
        const {coords} = await getCurrentPositionAsync({
          enableHighAccuracy: true
        })
-
-       
-
        const {latitude, longitude} = coords;
 
        setCurrentRegion({
@@ -46,18 +43,12 @@ function Main({navigation}){
  
       }
     }
-
-
     loadInitialPosition()
   }, [])
 
-
   function setupWebSocket(){
     disconnect()
-     
     const {latitude, longitude} = currentRegion;
-
-
     connect(
       latitude,
       longitude,
@@ -67,7 +58,6 @@ function Main({navigation}){
 
   async function loadDevs(){
     const {latitude, longitude } = currentRegion;
-
     const response = await api.get('/search', {
       params:{
         latitude,
@@ -75,7 +65,6 @@ function Main({navigation}){
         techs,
       }
     })
-
     setDevs(response.data)
     setupWebSocket()
     Keyboard.dismiss()
@@ -89,7 +78,6 @@ function Main({navigation}){
   if(!currentRegion){
     return null
   }
-
   return (
     <>
     <MapView onRegionChangeComplete={handleRegionChanged} 
@@ -145,8 +133,8 @@ const styles = StyleSheet.create({
     width: 54,
     height: 54,
     borderRadius: 35,
-    borderWidth: 4,
-    borderColor: '#FFF'
+    borderWidth: 3,
+    borderColor: '#8E4DFF'
   },
 
   callout: {

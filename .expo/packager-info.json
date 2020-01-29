@@ -1,10 +1,10 @@
 {
   "devToolsPort": 19002,
-  "expoServerPort": 19000,
-  "packagerPort": 19001,
-  "packagerPid": 13414,
-  "expoServerNgrokUrl": "https://gt-2ju.anonymous.findevs-mobile.exp.direct",
-  "packagerNgrokUrl": "https://packager.gt-2ju.anonymous.findevs-mobile.exp.direct",
-  "ngrokPid": 13425,
+  "expoServerPort": null,
+  "packagerPort": null,
+  "packagerPid": null,
+  "expoServerNgrokUrl": null,
+  "packagerNgrokUrl": null,
+  "ngrokPid": null,
   "webpackServerPort": null
 }

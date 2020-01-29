@@ -1,6 +1,6 @@
 import socketio from 'socket.io-client'
 
-const socket = socketio('https://findev-omniweek.herokuapp.com/', {
+const socket = socketio('https://findevs-backend.herokuapp.com/', {
   autoConnect: false,
 })
 
